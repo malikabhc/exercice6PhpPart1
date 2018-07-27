@@ -1,3 +1,6 @@
+<?php
+  $name = 'Malika';
+?>
 <!DOCTYPE html>
 <html lang="fr">
   <head>
@@ -5,9 +8,12 @@
     <title>Exercice 6</title>
   </head>
   <body>
-    <?php
-      $name = 'Malika';
-      echo 'Bonjour ' . $name . ' comment vas-tu ?';
-    ?>
+    <p>
+      <?php
+        echo 'Bonjour ' . $name . ' comment vas-tu ?';
+      ?>
+    </p>
+    <!-- AUTRE POSSIBILITE
+    <p> Bonjour <?php echo $name ?> comment vas-tu ?</p> -->
   </body>
 </html>
